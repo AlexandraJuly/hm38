@@ -1,0 +1,30 @@
+.wrapper_todo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    margin: 10px;
+    width: 700px;
+}
+
+.todo_completed {
+    background-color: rgb(200, 131, 202);
+    border-radius: 20px;
+    border-color: rgb(210, 160, 240);
+    width: 300px;
+    padding: 10px;
+
+}
+
+.todo_not_completed {
+    background-color: rgb(200, 131, 202);
+    border-radius: 20px;
+    border-color: rgb(210, 160, 240);
+    width: 300px;
+    padding: 10px;
+}
+
+.todo_title {
+    text-align: center;
+    margin: 0;
+}
